@@ -7,7 +7,7 @@ def main():
     st.title("Arduino Data to Streamlit")
 
     # Open a serial connection to the Arduino
-    ser = serial.Serial('/dev/ttyUSB0', 9600)  # Replace with your serial port and baud rate
+    ser = serial.Serial('COM3', 9600)  # Replace with your serial port and baud rate
 
     while True:
         # Read data from Arduino
