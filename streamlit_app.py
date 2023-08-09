@@ -3,20 +3,27 @@ import streamlit as st
 
 def main():
     st.title("健康小问题")
-if st.button("沉脉")
+if st.button(aa)
     st.session_state.question = "a"    
-elif st.button("迟脉")
+elif st.button(bb)
     st.session_state.question = "d"  
-elif st.button("浮脉")
+elif st.button(cc)
     st.session_state.question = "h"
-elif st.button("实脉")
+elif st.button(dd)
     st.session_state.question = "k"
-elif st.button("数脉")
+elif st.button(ee)
     st.session_state.question = "o"
-elif st.button("虚脉")
+elif st.button(ff)
     st.session_state.question = "r"
 
     # 问题和选项
+    aa = "沉脉"
+    bb = "迟脉"
+    cc = "浮脉"
+    dd = "实脉"
+    ee = "数脉"
+    ff = "虚脉"
+
     question_a = "你比较胖/瘦？"    #Chenmai
     option_a_a = "胖"
     option_a_b = "瘦"
