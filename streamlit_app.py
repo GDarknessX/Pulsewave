@@ -400,4 +400,6 @@ def main():
 if __name__ == "__main__":
     if 'page' not in st.session_state:
         st.session_state.page = "initial"
+     if 'question' not in st.session_state:
+        st.session_state.question = " "
     main()
