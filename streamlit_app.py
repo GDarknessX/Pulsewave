@@ -3,17 +3,17 @@ import streamlit as st
 
 def main():
     st.title("健康小问题")
-if st.button(aa)
+if st.button(aa):
     st.session_state.question = "a"    
-elif st.button(bb)
+elif st.button(bb):
     st.session_state.question = "d"  
-elif st.button(cc)
+elif st.button(cc):
     st.session_state.question = "h"
-elif st.button(dd)
+elif st.button(dd):
     st.session_state.question = "k"
-elif st.button(ee)
+elif st.button(ee):
     st.session_state.question = "o"
-elif st.button(ff)
+elif st.button(ff):
     st.session_state.question = "r"
 
     # 问题和选项
