@@ -104,7 +104,7 @@ def main():
     option_t_a = "是"
     option_t_b = "否"
 
-    if st.session_state.page == "initial":
+    if st.session_state.question == "initial":
         st.write("请选择一个脉象：")
         if st.button("沉脉"):
             st.session_state.page = "a"
