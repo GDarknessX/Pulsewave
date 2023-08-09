@@ -17,12 +17,12 @@ def main():
  #   st.session_state.question = "r"}
 
     # 问题和选项
-    aa = "沉脉"
-    bb = "迟脉"
-    cc = "浮脉"
-    dd = "实脉"
-    ee = "数脉"
-    ff = "虚脉"
+    option_aa = "沉脉"
+    option_bb = "迟脉"
+    option_cc = "浮脉"
+    option_dd = "实脉"
+    option_ee = "数脉"
+    option_ff = "虚脉"
 
     question_a = "你比较胖/瘦？"    #Chenmai
     option_a_a = "胖"
@@ -106,23 +106,23 @@ def main():
 
     if st.session_state.page == "initial":
         st.write("请选择一个脉象：")
-         if st.button(aa):
+         if st.button(option_aa):
             st.session_state.page = "a"
             st.experimental_rerun()
 
-        elif st.button(bb):
+        elif st.button(option_bb):
             st.session_state.page = "d"
             st.experimental_rerun()
-        elif st.button(cc):
+        elif st.button(option_cc):
             st.session_state.page = "h"
             st.experimental_rerun()
-        elif st.button(dd):
+        elif st.button(option_dd):
             st.session_state.page = "k"
             st.experimental_rerun()
-        elif st.button(ee):
+        elif st.button(option_ee):
             st.session_state.page = "o"
             st.experimental_rerun()
-        elif st.button(ff):
+        elif st.button(option_ff):
             st.session_state.page = "r"
             st.experimental_rerun()
 
