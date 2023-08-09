@@ -2,7 +2,7 @@
 import streamlit as st
 
 def main():
-    st.title("选择题网站")
+    st.title("选择题")
 
     # 问题和选项
     question = "哪种编程语言是最流行的？"
