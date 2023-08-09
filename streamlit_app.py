@@ -103,8 +103,7 @@ def main():
     question_t = "你瘦吗？"
     option_t_a = "是"
     option_t_b = "否"
-    st.session_state.question == ""
-    if st.session_state.page == "initial":
+    if st.session_state.question == "initial":
         st.write("请选择一个脉象：")
         if st.button("沉脉"):
             st.session_state.page = "a"
@@ -398,8 +397,6 @@ def main():
             st.experimental_rerun()
 
 if __name__ == "__main__":
-    if 'page' not in st.session_state:
-        st.session_state.page = "initial"
-     if 'question' not in st.session_state:
-        st.session_state.question = " "
+    if 'question' not in st.session_state:
+        st.session_state.question = "initial"
     main()
