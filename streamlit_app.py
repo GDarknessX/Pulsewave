@@ -104,6 +104,28 @@ def main():
     option_t_a = "是"
     option_t_b = "否"
 
+    if st.session_state.page == "initial":
+        st.write("请选择一个脉象：")
+         if st.button(aa):
+            st.session_state.page = "a"
+            st.experimental_rerun()
+
+        elif st.button(bb):
+            st.session_state.page = "d"
+            st.experimental_rerun()
+        elif st.button(cc):
+            st.session_state.page = "h"
+            st.experimental_rerun()
+        elif st.button(dd):
+            st.session_state.page = "k"
+            st.experimental_rerun()
+        elif st.button(ee):
+            st.session_state.page = "o"
+            st.experimental_rerun()
+        elif st.button(ff):
+            st.session_state.page = "r"
+            st.experimental_rerun()
+
 #沉脉
     if st.session_state.question == "a":
         st.write(question_a)
