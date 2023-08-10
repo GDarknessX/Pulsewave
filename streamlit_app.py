@@ -87,9 +87,9 @@ def main():
     option_s_a = "是"
     option_s_b = "否"
 
-   question_t = "你瘦吗？"
-   option_t_a = "是"
-   option_t_b = "否"
+    question_t = "你瘦吗？"
+    option_t_a = "是"
+    option_t_b = "否"
 
     if st.session_state.question == "initial":
         st.write("请选择一个脉象：")
