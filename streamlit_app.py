@@ -1,18 +1,5 @@
 # Pulsewave
 import streamlit as st
-import serial
-
-def main():
-#接受Arduino数据
-    st.title("Arduino Data to Streamlit")
-
-    # Open a serial connection to the Arduino
-    ser = serial.Serial('COM3', 9600)  # Replace with your serial port and baud rate
-
-    while True:
-        # Read data from Arduino
-        data = ser.readline().decode('utf-8').strip()
-        st.write(f"Arduino Data: {data}")
 
     st.title("健康小问题")
 #{if st.button(aa):
