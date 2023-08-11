@@ -99,290 +99,17 @@ def main():
     
     if variable_from_url == "0":
         st.session_state.question = "a"
-        # 沉脉
-        if st.session_state.question == "a":
-            st.write(question_a)
-        
-            # 显示选项按钮
-            if st.button(option_a_a):
-                st.write(f"您选择了 {option_a_a}。")
-                st.session_state.question = "b"
-                st.experimental_rerun()
-        
-            elif st.button(option_a_b):
-                st.write(f"您选择了 {option_a_b}。")
-                st.session_state.question = "b"
-                st.experimental_rerun()
-        
-        elif st.session_state.question == "b":
-            st.write(question_b)
-        
-            # 显示选项按钮
-            if st.button(option_b_a):
-                st.write(f"您选择了 {option_b_a}。")
-                st.session_state.question = "c"
-                st.experimental_rerun()
-        
-            elif st.button(option_b_b):
-                st.write(f"您选择了 {option_b_b}。")
-                st.session_state.question = "c"
-                st.experimental_rerun()
-                
-        elif st.session_state.question == "c":
-            st.write(question_c)
-        
-            # 显示选项按钮
-            if st.button(option_c_a):
-                st.write(f"您选择了 {option_c_a}。")
-                st.session_state.question = "c"
-                st.experimental_rerun()
-        
-            elif st.button(option_c_b):
-                st.write(f"您选择了 {option_b_b}。")
-                st.session_state.question = "c"
-                st.experimental_rerun()
-            st.experimental_rerun()
-            
     elif variable_from_url == "1":
         st.session_state.question == "d"
-        #迟脉
-        if st.session_state.question == "d":
-            st.write(question_d)
-        
-            # 显示选项按钮
-            if st.button(option_d_a):
-                st.write(f"您选择了 {option_d_a}。")
-                st.session_state.question = "e"
-                st.experimental_rerun()
-        
-            elif st.button(option_d_b):
-                st.write(f"您选择了 {option_d_b}。")
-                st.session_state.question = "e"
-                st.experimental_rerun()
-        
-        elif st.session_state.question == "e":
-            st.write(question_e)
-        
-            # 显示选项按钮
-            if st.button(option_e_a):
-                st.write(f"您选择了 {option_e_a}。")
-                st.session_state.question = "f"
-                st.experimental_rerun()
-        
-            elif st.button(option_e_b):
-                st.write(f"您选择了 {option_e_b}。")
-                st.session_state.question = "f"
-                st.experimental_rerun()
-                
-        elif st.session_state.question == "f":
-            st.write(question_f)
-        
-            # 显示选项按钮
-            if st.button(option_f_a):
-                st.write(f"您选择了 {option_f_a}。")
-                st.session_state.question = "g"
-                st.experimental_rerun()
-        
-            elif st.button(option_f_b):
-                st.write(f"您选择了 {option_f_b}。")
-                st.session_state.question = "g"
-                st.experimental_rerun()
-    
     elif variable_from_url == "2":
         st.session_state.question = "h"
-         #浮脉
-        if st.session_state.question == "h":
-            st.write(question_h)
-        
-            # 显示选项按钮
-            if st.button(option_h_a):
-                st.write(f"您选择了 {option_h_a}。")
-                st.session_state.question = "i"
-                st.experimental_rerun()
-        
-            elif st.button(option_h_b):
-                st.write(f"您选择了 {option_h_b}。")
-                st.session_state.question = "i"
-                st.experimental_rerun()
-        
-        elif st.session_state.question == "i":
-            st.write(question_i)
-        
-            # 显示选项按钮
-            if st.button(option_i_a):
-                st.write(f"您选择了 {option_i_a}。")
-                st.session_state.question = "j"
-                st.experimental_rerun()
-        
-            elif st.button(option_i_b):
-                st.write(f"您选择了 {option_i_b}。")
-                st.session_state.question = "j"
-                st.experimental_rerun()
-                
-        elif st.session_state.question == "j":
-            st.write(question_j)
-        
-            # 显示选项按钮
-            if st.button(option_j_a):
-                st.write(f"您选择了 {option_j_a}。")
-                st.session_state.question = "j"
-                st.experimental_rerun()
-        
-            elif st.button(option_j_b):
-                st.write(f"您选择了 {option_j_b}。")
-                st.session_state.question = "j"
-                st.experimental_rerun()
-    
     elif variable_from_url == "3":
         st.session_state.question = "k"
-        #实脉
-        if st.session_state.question == "k":
-            st.write(question_k)
-    
-            # 显示选项按钮
-            if st.button(option_k_a):
-                st.write(f"您选择了 {option_k_a}。")
-                st.session_state.question = "l"
-                st.experimental_rerun()
-        
-            elif st.button(option_k_b):
-                st.write(f"您选择了 {option_k_b}。")
-                st.session_state.question = "l"
-                st.experimental_rerun()
-    
-        elif st.session_state.question == "l":
-            st.write(question_l)
-        
-            # 显示选项按钮
-            if st.button(option_l_a):
-                st.write(f"您选择了 {option_l_a}。")
-                st.session_state.question = "m"
-                st.experimental_rerun()
-        
-            elif st.button(option_l_b):
-                st.write(f"您选择了 {option_l_b}。")
-                st.session_state.question = "m"
-                st.experimental_rerun()
-                
-        elif st.session_state.question == "m":
-            st.write(question_m)
-        
-            # 显示选项按钮
-            if st.button(option_m_a):
-                st.write(f"您选择了 {option_m_a}。")
-                st.session_state.question = "n"
-                st.experimental_rerun()
-        
-            elif st.button(option_m_b):
-                st.write(f"您选择了 {option_m_b}。")
-                st.session_state.question = "n"
-                st.experimental_rerun()
-        
-        elif st.session_state.question == "n":
-            st.write(question_n)
-        
-            # 显示选项按钮
-            if st.button(option_n_a):
-                st.write(f"您选择了 {option_n_a}。")
-                st.session_state.question = "n"
-                st.experimental_rerun()
-        
-            elif st.button(option_n_b):
-                st.write(f"您选择了 {option_n_b}。")
-                st.session_state.question = "n"
-                st.experimental_rerun()
-                
     elif variable_from_url == "4":
         st.session_state.question = "o"
-        #数脉
-        if st.session_state.question == "o":
-            st.write(question_o)
-    
-            # 显示选项按钮
-            if st.button(option_o_a):
-                st.write(f"您选择了 {option_o_a}。")
-                st.session_state.question = "p"
-                st.experimental_rerun()
-        
-            elif st.button(option_o_b):
-                st.write(f"您选择了 {option_o_b}。")
-                st.session_state.question = "p"
-                st.experimental_rerun()
-    
-        elif st.session_state.question == "p":
-            st.write(question_p)
-        
-            # 显示选项按钮
-            if st.button(option_p_a):
-                st.write(f"您选择了 {option_p_a}。")
-                st.session_state.question = "q"
-                st.experimental_rerun()
-        
-            elif st.button(option_p_b):
-                st.write(f"您选择了 {option_p_b}。")
-                st.session_state.question = "q"
-                st.experimental_rerun()
-                
-        elif st.session_state.question == "q":
-            st.write(question_q)
-        
-            # 显示选项按钮
-            if st.button(option_q_a):
-                st.write(f"您选择了 {option_q_a}。")
-                st.session_state.question = "q"
-                st.experimental_rerun()
-        
-            elif st.button(option_q_b):
-                st.write(f"您选择了 {option_q_b}。")
-                st.session_state.question = "q"
-                st.experimental_rerun()
     elif variable_from_url == "5":
         st.session_state.question = "r"
-        #虚脉
-        if st.session_state.question == "r":
-            st.write(question_r)
-    
-        # 显示选项按钮
-            if st.button(option_r_a):
-                st.write(f"您选择了 {option_r_a}。")
-                st.session_state.question = "s"
-                st.experimental_rerun()
-        
-            elif st.button(option_r_b):
-                st.write(f"您选择了 {option_r_b}。")
-                st.session_state.question = "s"
-                st.experimental_rerun()
-    
-        elif st.session_state.question == "s":
-            st.write(question_s)
-        
-            # 显示选项按钮
-            if st.button(option_s_a):
-                st.write(f"您选择了 {option_s_a}。")
-                st.session_state.question = "t"
-                st.experimental_rerun()
-        
-            elif st.button(option_s_b):
-                st.write(f"您选择了 {option_s_b}。")
-                st.session_state.question = "t"
-                st.experimental_rerun()
-                
-        elif st.session_state.question == "t":
-            st.write(question_t)
-        
-            # 显示选项按钮
-            if st.button(option_t_a):
-                st.write(f"您选择了 {option_t_a}。")
-                st.session_state.question = "t"
-                st.experimental_rerun()
-        
-            elif st.button(option_t_b):
-                st.write(f"您选择了 {option_t_b}。")
-                st.session_state.question = "t"
-                st.experimental_rerun()
-    
-    
-        
+'''        
         # 问题和选项
         option_aa = "沉脉"
         option_bb = "迟脉"
@@ -470,7 +197,8 @@ def main():
         question_t = "你瘦吗？"
         option_t_a = "是"
         option_t_b = "否"
-'''    
+'''   
+'''
     if st.session_state.question == "initial":
         st.write("请选择一个脉象：")
         if st.button("沉脉"):
@@ -492,7 +220,7 @@ def main():
             st.session_state.question = "r"
             st.experimental_rerun()
 '''  
-'''
+
     # 沉脉
     if st.session_state.question == "a":
         st.write(question_a)
@@ -764,7 +492,7 @@ def main():
             st.write(f"您选择了 {option_t_b}。")
             st.session_state.question = "t"
             st.experimental_rerun()
-    '''
+
 if __name__ == "__main__":
     if 'question' not in st.session_state:
         st.session_state.question = "initial"
