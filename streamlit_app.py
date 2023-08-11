@@ -1,15 +1,6 @@
 st.title("健康小问题")
 
 def main():
-    # 获取传递的变量
-    variable_from_url = st.experimental_get_query_params().get("variable", [None])[0]
-    if variable == 0:
-        st.session_state.question = "a"
-        st.experimental_rerun()
-    else 
-        st.session_state.question = "d"
-        st.experimental_rerun()
-
     # 问题和选项
     option_aa = "沉脉"
     option_bb = "迟脉"
