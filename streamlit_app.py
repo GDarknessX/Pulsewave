@@ -3,7 +3,7 @@ import streamlit as st
 st.title("健康小问题")
 
 # 获取传递的变量
-    variable_from_url = st.experimental_get_query_params().get("variable", [0])[0]
+variable_from_url = st.experimental_get_query_params().get("variable", [0])[0]
 
 def main():
 
