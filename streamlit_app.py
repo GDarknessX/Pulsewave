@@ -25,7 +25,7 @@ def main():
     else:
         st.session_state.question = st.session_state.question 
         
-   questions_chen = [
+    questions_chen = [
         {
             "question": "你比较胖/瘦？",
             "options": ["胖", "瘦"],
