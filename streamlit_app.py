@@ -9,16 +9,24 @@ def main():
     
     if variable_from_url == "0":
         st.session_state.question = "a"
+        variable_from_url = "X"
     elif variable_from_url == "1":
         st.session_state.question == "d"
+        variable_from_url = "X"
     elif variable_from_url == "2":
         st.session_state.question = "h"
+        variable_from_url = "X"
     elif variable_from_url == "3":
         st.session_state.question = "k"
+        variable_from_url = "X"
     elif variable_from_url == "4":
         st.session_state.question = "o"
+        variable_from_url = "X"
     elif variable_from_url == "5":
         st.session_state.question = "r"
+        variable_from_url = "X"
+    else:
+        st.session_state.question = st.session_state.question 
         
     # 问题和选项
     option_aa = "沉脉"
