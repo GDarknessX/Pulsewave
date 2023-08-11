@@ -2,6 +2,8 @@ import streamlit as st
 st.title("健康小问题")
 
 def main():
+
+
     # 问题和选项
     option_aa = "沉脉"
     option_bb = "迟脉"
