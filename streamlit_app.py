@@ -13,7 +13,7 @@ elif st.button(dd):
 elif st.button(ee):
     st.session_state.question = "o"
 elif st.button(ff):
-    st.session_state.question = "r"}
+    st.session_state.question = "r"
     # 问题和选项
     option_aa = "沉脉"
     option_bb = "迟脉"
