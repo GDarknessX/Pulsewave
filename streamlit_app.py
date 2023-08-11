@@ -1,14 +1,6 @@
 import streamlit as st
 st.title("健康小问题")
 
-def my_function():
-    # 初始化函数状态，如果之前没有设置过
-    if 'counter' not in st.session_state:
-        st.session_state.counter = 0
-    
-    st.write(f"Counter: {st.session_state.counter}")
-    st.session_state.counter += 1
-
 def main():
 
 
