@@ -1,8 +1,8 @@
 import streamlit as st
 
 st.title("健康小问题")
-
-def main():
+@st.cache(suppress_st_warning=True)
+def main(variable_from_url):
     variable_from_url = st.experimental_get_query_params().get("variable", [0])[0]
     
     if variable_from_url == "0":
@@ -388,4 +388,4 @@ def main():
 if __name__ == "__main__":
     if 'question' not in st.session_state:
         st.session_state.question = "e"
-    main()
+    main(variable_from_url)
