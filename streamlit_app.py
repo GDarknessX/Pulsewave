@@ -144,7 +144,7 @@ def main():
     elif variable_from_url == "3":
         #实脉
         if st.session_state.question == "k":
-        st.write(question_k)
+            st.write(question_k)
     
             # 显示选项按钮
             if st.button(option_k_a):
@@ -202,7 +202,7 @@ def main():
     elif variable_from_url == "4":
         #数脉
         if st.session_state.question == "o":
-        st.write(question_o)
+            st.write(question_o)
     
             # 显示选项按钮
             if st.button(option_o_a):
@@ -245,7 +245,7 @@ def main():
     elif variable_from_url == "5":
         #虚脉
         if st.session_state.question == "r":
-        st.write(question_r)
+            st.write(question_r)
     
         # 显示选项按钮
             if st.button(option_r_a):
