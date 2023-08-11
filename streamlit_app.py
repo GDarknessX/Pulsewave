@@ -51,6 +51,7 @@ def main():
                 st.session_state.question = "c"
                 st.experimental_rerun()
             st.experimental_rerun()
+            
     elif variable_from_url == "1":
         st.session_state.question == "d"
         #迟脉
@@ -96,7 +97,7 @@ def main():
                 st.session_state.question = "g"
                 st.experimental_rerun()
     
-     elif variable_from_url == "2":
+    elif variable_from_url == "2":
          #浮脉
          if st.session_state.question == "h":
             st.write(question_h)
