@@ -421,6 +421,8 @@ def main():
             st.text("血虚→红糖红枣姜汤/当归生姜茶")
         elif st.session_state.x==5112:
             st.text("热证→山药、菠菜、苦瓜、冬瓜、鸭肉、菊花、莲子、荸荠、山竹")
+        elif st.session_state.x==5121:
+            st.text("阳极阴竭→就医")
         elif st.session_state.x==5122:
             st.text("阳极阴竭→百合银耳雪梨羹、石斛、黑芝麻、桑葚、甲鱼、山药、菠菜、鸭肉、菊花、莲子、荸荠")
 if __name__ == "__main__":
