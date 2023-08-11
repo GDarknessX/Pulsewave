@@ -109,7 +109,6 @@ def main():
         elif st.button("虚脉"):
             st.session_state.question = "r"
             st.experimental_rerun()
-    x=1
     # 沉脉
     if st.session_state.question == "a":
         st.session_state.x = 1
@@ -196,7 +195,7 @@ def main():
             st.experimental_rerun()
 #浮脉
     if st.session_state.question == "i":
-        x=3
+        st.session_state.x=3
         st.write(question_i)
         # 显示选项按钮
         if st.button(option_i_a):
