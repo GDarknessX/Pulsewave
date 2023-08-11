@@ -2,6 +2,10 @@ import streamlit as st
 
 st.title("健康小问题")
 
+
+
+def main():
+
 # 问题和选项
 option_aa = "沉脉"
 option_bb = "迟脉"
@@ -90,7 +94,6 @@ question_t = "你瘦吗？"
 option_t_a = "是"
 option_t_b = "否"
 
-def main():
 # 获取传递的变量
     variable_from_url = st.experimental_get_query_params().get("variable", [0])[0]
     
