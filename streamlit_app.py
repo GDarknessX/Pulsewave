@@ -2,19 +2,7 @@
 import streamlit as st
 def main():
     st.title("健康小问题")
-if st.button(aa):
-    st.session_state.question = "a"    
-elif st.button(bb):
-    st.session_state.question = "d"  
-elif st.button(cc):
-    st.session_state.question = "h"
-elif st.button(dd):
-    st.session_state.question = "k"
-elif st.button(ee):
-    st.session_state.question = "o"
-elif st.button(ff):
-    st.session_state.question = "r"
-    # 问题和选项
+     # 问题和选项
     option_aa = "沉脉"
     option_bb = "迟脉"
     option_cc = "浮脉"
@@ -81,6 +69,19 @@ elif st.button(ff):
     question_t = "你瘦吗？"
     option_t_a = "是"
     option_t_b = "否"
+if st.button(aa):
+    st.session_state.question = "a"    
+elif st.button(bb):
+    st.session_state.question = "d"  
+elif st.button(cc):
+    st.session_state.question = "h"
+elif st.button(dd):
+    st.session_state.question = "k"
+elif st.button(ee):
+    st.session_state.question = "o"
+elif st.button(ff):
+    st.session_state.question = "r"
+   
     if st.session_state.question == "initial":
         st.write("请选择一个脉象：")
         if st.button("沉脉"):
