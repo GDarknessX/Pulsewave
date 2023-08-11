@@ -11,23 +11,23 @@ def main():
     #variable_from_url = st.experimental_get_query_params().get("variable", [0])[0]
     
     if variable_from_url == "0":
+        variable_from_url = "X"
         st.session_state.question = "a"
-        variable_from_url = "X"
     elif variable_from_url == "1":
+        variable_from_url = "X"
         st.session_state.question == "d"
-        variable_from_url = "X"
     elif variable_from_url == "2":
+        variable_from_url = "X"
         st.session_state.question = "h"
-        variable_from_url = "X"
     elif variable_from_url == "3":
+        variable_from_url = "X"
         st.session_state.question = "k"
-        variable_from_url = "X"
     elif variable_from_url == "4":
+        variable_from_url = "X"
         st.session_state.question = "o"
-        variable_from_url = "X"
     elif variable_from_url == "5":
-        st.session_state.question = "r"
         variable_from_url = "X"
+        st.session_state.question = "r"
     else:
         st.session_state.question = st.session_state.question 
         
