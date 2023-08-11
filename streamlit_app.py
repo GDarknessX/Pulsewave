@@ -69,17 +69,17 @@ def main():
     question_t = "你瘦吗？"
     option_t_a = "是"
     option_t_b = "否"
-if st.button(aa):
+if st.button(option_aa):
     st.session_state.question = "a"    
-elif st.button(bb):
+elif st.button(option_bb):
     st.session_state.question = "d"  
-elif st.button(cc):
+elif st.button(option_cc):
     st.session_state.question = "h"
-elif st.button(dd):
+elif st.button(option_dd):
     st.session_state.question = "k"
-elif st.button(ee):
+elif st.button(option_ee):
     st.session_state.question = "o"
-elif st.button(ff):
+elif st.button(option_ff):
     st.session_state.question = "r"
    
     if st.session_state.question == "initial":
