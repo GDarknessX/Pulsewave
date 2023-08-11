@@ -195,7 +195,7 @@ def main():
             st.experimental_rerun()
 #浮脉
     if st.session_state.question == "i":
-        st.session_state.x=3
+        st.session_state.x = 3
         st.write(question_i)
         # 显示选项按钮
         if st.button(option_i_a):
