@@ -4,9 +4,9 @@ st.title("健康小问题")
 
 def main():
 # 获取传递的变量
-    variable = st.experimental_get_query_params().get("variable", [0])[0]
+    variable_from_url = st.experimental_get_query_params().get("variable", [0])[0]
 
-if variable == "0":
+if variable_from_url == "0":
     st.session_state.question = "a"
     st.experimental_rerun()
 else:
