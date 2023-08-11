@@ -95,7 +95,7 @@ def main():
                 st.write(f"您选择了 {option_f_b}。")
                 st.session_state.question = "g"
                 st.experimental_rerun()
-
+    
      elif variable_from_url == "2":
          #浮脉
          if st.session_state.question == "h":
@@ -139,7 +139,7 @@ def main():
                 st.write(f"您选择了 {option_j_b}。")
                 st.session_state.question = "j"
                 st.experimental_rerun()
-
+    
     elif variable_from_url == "3":
         #实脉
         if st.session_state.question == "k":
