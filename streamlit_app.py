@@ -98,7 +98,7 @@ def main():
             st.session_state.question = "d"
             st.experimental_rerun()
         elif st.button("浮脉"):
-            st.session_state.question = "h"
+            st.session_state.question = "i"
             st.experimental_rerun()
         elif st.button("实脉"):
             st.session_state.question = "k"
@@ -195,7 +195,7 @@ def main():
             st.experimental_rerun()
 #浮脉
     if st.session_state.question == "i":
-        st.session_state.x = 3
+        st.session_state.x = 7
         st.write(question_i)
         # 显示选项按钮
         if st.button(option_i_a):
@@ -375,13 +375,13 @@ def main():
             st.session_state.x=st.session_state.x*10+2
             st.experimental_rerun()
     if st.session_state.question == "answer":
-        if st.session_state.x == 3211 or st.session_state.x == 3212 or st.session_state.x == 3221 or st.session_state.x == 3222 or st.session_state.x == 1111 or st.session_state.x == 1112 or st.session_state.x == 1121 or st.session_state.x == 1122 or st.session_state.x == 2111 or st.session_state.x == 2112 or st.session_state.x == 2121 or st.session_state.x == 2122 or st.session_state.x == 42221 or st.session_state.x == 42222 or st.session_state.x == 5211 or st.session_state.x == 5212 or st.session_state.x == 5221 or st.session_state.x == 5222:
+        if st.session_state.x == 7211 or st.session_state.x == 7212 or st.session_state.x == 7221 or st.session_state.x == 7222 or st.session_state.x == 1111 or st.session_state.x == 1112 or st.session_state.x == 1121 or st.session_state.x == 1122 or st.session_state.x == 2111 or st.session_state.x == 2112 or st.session_state.x == 2121 or st.session_state.x == 2122 or st.session_state.x == 42221 or st.session_state.x == 42222 or st.session_state.x == 5211 or st.session_state.x == 5212 or st.session_state.x == 5221 or st.session_state.x == 5222:
             st.text("正常")
-        elif st.session_state.x == 3111 or st.session_state.x==3121 or st.session_state.x==41111or st.session_state.x==41112 or st.session_state.x==41121 or st.session_state.x==41122 or st.session_state.x==41211 or st.session_state.x==41212 or st.session_state.x==41221 or st.session_state.x==41222 or st.session_state.x==5111:
+        elif st.session_state.x == 7111 or st.session_state.x==7121 or st.session_state.x==41111or st.session_state.x==41112 or st.session_state.x==41121 or st.session_state.x==41122 or st.session_state.x==41211 or st.session_state.x==41212 or st.session_state.x==41221 or st.session_state.x==41222 or st.session_state.x==5111:
             st.text("就医")
-        elif  st.session_state.x== 3112 :
+        elif  st.session_state.x== 7112 :
             st.text("可能风寒侵袭→麻黄桂枝汤/姜汤")
-        elif st.session_state.x==3122:
+        elif st.session_state.x==7122:
             st.text("风热、上火、有痰，外邪入侵→薄荷水/金银花茶/藿香正气水/罗汉果茶/绿豆汤")
         elif st.session_state.x==1211 or st.session_state.x==1212:
             st.text("阳气虚→乌鸡桂圆红枣汤/海参/牛羊肉、虾等高蛋白肉类/韭菜 ")
