@@ -381,5 +381,5 @@ def main():
 
 if __name__ == "__main__":
     if 'question' not in st.session_state:
-        st.session_state.question = "a"
+        st.session_state.question = "e"
     main()
