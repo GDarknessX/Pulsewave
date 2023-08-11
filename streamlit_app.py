@@ -99,7 +99,7 @@ def main():
     
     elif variable_from_url == "2":
          #浮脉
-         if st.session_state.question == "h":
+        if st.session_state.question == "h":
             st.write(question_h)
         
             # 显示选项按钮
