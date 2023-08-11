@@ -8,8 +8,10 @@ def main():
     
     if variable_from_url == "0":
         st.session_state.question = "a"
+        st.experimental_rerun()
     else:
         st.session_state.question == "initial"
+        st.experimental_rerun()
     
         
         # 问题和选项
