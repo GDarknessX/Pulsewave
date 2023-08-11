@@ -8,10 +8,8 @@ def main():
 
 if variable_from_url == "0":
     st.session_state.question = "a"
-    st.experimental_rerun()
 else:
-    st.session_state.question = "d"
-    st.experimental_rerun()
+    st.session_state.question == "initial"
 
     
     # 问题和选项
@@ -101,28 +99,28 @@ else:
     question_t = "你瘦吗？"
     option_t_a = "是"
     option_t_b = "否"
-'''
-    if st.session_state.question == "initial":
-        st.write("请选择一个脉象：")
-        if st.button("沉脉"):
-            st.session_state.question = "a"
-            st.experimental_rerun()
-        elif st.button("迟脉"):
-            st.session_state.question = "d"
-            st.experimental_rerun()
-        elif st.button("浮脉"):
-            st.session_state.question = "h"
-            st.experimental_rerun()
-        elif st.button("实脉"):
-            st.session_state.question = "k"
-            st.experimental_rerun()
-        elif st.button("数脉"):
-            st.session_state.question = "o"
-            st.experimental_rerun()
-        elif st.button("虚脉"):
-            st.session_state.question = "r"
-            st.experimental_rerun()
-'''
+
+if st.session_state.question == "initial":
+    st.write("请选择一个脉象：")
+    if st.button("沉脉"):
+        st.session_state.question = "a"
+        st.experimental_rerun()
+    elif st.button("迟脉"):
+        st.session_state.question = "d"
+        st.experimental_rerun()
+    elif st.button("浮脉"):
+        st.session_state.question = "h"
+        st.experimental_rerun()
+    elif st.button("实脉"):
+        st.session_state.question = "k"
+        st.experimental_rerun()
+    elif st.button("数脉"):
+        st.session_state.question = "o"
+        st.experimental_rerun()
+    elif st.button("虚脉"):
+        st.session_state.question = "r"
+        st.experimental_rerun()
+
 # 沉脉
 if st.session_state.question == "a":
     st.write(question_a)
