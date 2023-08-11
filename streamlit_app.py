@@ -40,7 +40,8 @@ def main():
             "question": "你最近吃饭的胃口怎么样？",
             "options": ["好", "坏"],
             "answer": ""
-        }]
+        }
+   ]
     questions_chi = [
         {
             "question": "你长期从事体力劳动或高强度运动吗？",
@@ -61,7 +62,8 @@ def main():
             "question": "你最近有吹冷风着凉的经历吗？",
             "options": ["是", "否"],
             "answer":
-        }]
+        }
+    ]
     questions_fu = [
 
         {
@@ -78,7 +80,8 @@ def main():
             "question": "你是否有长期的疾病史？",
             "options": ["是", "否"],
             "answer":
-        }]
+        }
+    ]
     questions_shi = [
         {
             "question": "你最近是否发烧或者感冒过？",
@@ -99,7 +102,8 @@ def main():
             "question": "你最近总是发脾气吗？",
             "options": ["是", "否"],
             "answer":
-        }]
+        }
+    ]
     questions_shu = [
         {
             "question": "你感觉到热吗？",
@@ -115,7 +119,8 @@ def main():
             "question": "你常常感觉气短心跳加速吗？",
             "options": ["是", "否"],
             "answer": 
-        }]
+        }
+    ]
     questions_xu = [
         {
             "question": "你最近有消化不良吗？",
