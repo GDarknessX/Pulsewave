@@ -1,4 +1,4 @@
-import streamlit as st
+ import streamlit as st
 
 st.title("健康小问题")
 
@@ -189,6 +189,7 @@ def main():
                 st.experimental_rerun()
     
     elif variable_from_url == "2":
+        st.session_state.question = "h"
          #浮脉
         if st.session_state.question == "h":
             st.write(question_h)
@@ -233,6 +234,7 @@ def main():
                 st.experimental_rerun()
     
     elif variable_from_url == "3":
+        st.session_state.question = "k"
         #实脉
         if st.session_state.question == "k":
             st.write(question_k)
@@ -291,6 +293,7 @@ def main():
                 st.experimental_rerun()
                 
     elif variable_from_url == "4":
+        st.session_state.question = "o"
         #数脉
         if st.session_state.question == "o":
             st.write(question_o)
@@ -334,6 +337,7 @@ def main():
                 st.session_state.question = "q"
                 st.experimental_rerun()
     elif variable_from_url == "5":
+        st.session_state.question = "r"
         #虚脉
         if st.session_state.question == "r":
             st.write(question_r)
