@@ -669,7 +669,7 @@ def main():
             st.session_state.question = "t"
             st.experimental_rerun()
     '''
-    if __name__ == "__main__":
-        if 'question' not in st.session_state:
-            st.session_state.question = "initial"
-        main()
+if __name__ == "__main__":
+    if 'question' not in st.session_state:
+        st.session_state.question = "initial"
+    main()
