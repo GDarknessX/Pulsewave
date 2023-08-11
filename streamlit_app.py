@@ -5,22 +5,22 @@ def main():
     variable_from_url = st.experimental_get_query_params().get("variable", [0])[0]
     
     if variable_from_url == "0":
-        variable_from_url = "X"
+        #variable_from_url = "X"
         st.session_state.question = "questions_chen"
     elif variable_from_url == "1":
-        variable_from_url = "X"
+        #variable_from_url = "X"
         st.session_state.question == "questions_chi"
     elif variable_from_url == "2":
-        variable_from_url = "X"
+        #variable_from_url = "X"
         st.session_state.question = "questions_fu"
     elif variable_from_url == "3":
-        variable_from_url = "X"
+        #variable_from_url = "X"
         st.session_state.question = "questions_shi"
     elif variable_from_url == "4":
-        variable_from_url = "X"
+        #variable_from_url = "X"
         st.session_state.question = "questions_shu"
     elif variable_from_url == "5":
-        variable_from_url = "X"
+        #variable_from_url = "X"
         st.session_state.question = "questions_xu"
     else:
         st.session_state.question = st.session_state.question 
@@ -245,4 +245,4 @@ def main():
 if __name__ == "__main__":
     if 'question' not in st.session_state:
         st.session_state.question = "e"
-    main()
+main()
