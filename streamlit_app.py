@@ -216,8 +216,8 @@ def main():
             st.session_state.question = "j"
             st.session_state.x=st.session_state.x*10+1
             st.experimental_rerun()
-        elif st.button(option_i_b):
-            st.write(f"您选择了 {option_i_b}。")
+        elif st.button(option_h_b):
+            st.write(f"您选择了 {option_h_b}。")
             st.session_state.question = "j"
             st.session_state.x=st.session_state.x*10+2
             st.experimental_rerun()
