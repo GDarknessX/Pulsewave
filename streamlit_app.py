@@ -1,3 +1,4 @@
+import streamlit as st
 st.title("健康小问题")
 
 def main():
