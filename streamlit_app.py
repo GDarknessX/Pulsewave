@@ -99,7 +99,7 @@ def main():
     question_t = "你瘦吗？"
     option_t_a = "是"
     option_t_b = "否"
-
+'''
     if st.session_state.question == "initial":
         st.write("请选择一个脉象：")
         if st.button("沉脉"):
@@ -120,7 +120,7 @@ def main():
         elif st.button("虚脉"):
             st.session_state.question = "r"
             st.experimental_rerun()
-
+'''
     # 沉脉
     if st.session_state.question == "a":
         st.write(question_a)
